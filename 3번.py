@@ -1,20 +1,20 @@
 while True:
-   nam = int(input("점수 : "))
-   if nam >= 0 and nam <= 100:
-      if nam>=90 and nam <=100:
-         print(nam,": A")
+   score = int(input("점수 : "))
+   if score >= 0 and score <= 100:
+      if score>=90 and score <=100:
+         print(score,": A")
 
-      elif nam>=80 and nam <=89:
-         print(nam,": B")
+      elif score>=80 and score <=89:
+         print(score,": B")
 
-      elif nam>=70 and nam <=79:
-         print(nam,": C")
+      elif score>=70 and score <=79:
+         print(score,": C")
 
-      elif nam>=60 and nam <=69:
-         print(nam,": D")
+      elif score>=60 and score <=69:
+         print(score,": D")
 
-      elif nam>=0 and nam <=59:
-         print(nam,": F")
+      elif score>=0 and score <=59:
+         print(score,": F")
 
 
 
